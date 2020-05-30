@@ -1,23 +1,55 @@
-# Compiled class file
-*.class
-
-# Log file
-*.log
-
-# BlueJ files
-*.ctxt
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
+# maven ignore
+target/
 *.jar
+!.mvn/wrapper/*
 *.war
-*.nar
-*.ear
 *.zip
+*.tar
 *.tar.gz
-*.rar
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
+# eclipse ignore
+.settings/
+.project
+.classpath
+
+# idea ignore
+.idea/
+*.ipr
+*.iml
+*.iws
+
+# temp ignore
+*.log
+*.cache
+*.diff
+*.patch
+*.tmp
+
+# system ignore
+.DS_Store
+Thumbs.db
+
+# generated code
+**/build/*
+
+
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, build with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+classes
+
+# Gopkg.lock
+vendor/
+
+logs/
+.vscode/
+coverage.txt
