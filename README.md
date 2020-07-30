@@ -178,3 +178,9 @@ dubbo.registry.address = edas-migration://30.5.124.15:9999?service-registry=cons
 本文测试代码地址：https://github.com/lexburner/dubbo-migration
 
 
+
+
+
+![img](https://www.cnkirito.moe/css/images/wechat_public.jpg)
+
+*「技术分享」**某种程度上，是让作者和读者，不那么孤独的东西。**欢迎关注我的微信公众号：**「**Kirito的技术分享」*
